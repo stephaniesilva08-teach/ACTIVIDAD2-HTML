@@ -1,3 +1,40 @@
 .verduras{
-    border-bottom: greenyellow;
+    border-bottom: 5px dashed green;
+}
+.frutas{
+    border-bottom: 5px dotted orange;
+}
+body{
+    font-family: serif, sans-serif, monospace;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 200px;
+    background-color: bisque;
+}
+
+td{
+    border: 15px inset plum;
+    text-align: center;
+}
+
+.valor{
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+    background-color: lightcoral;
+}
+.lista-fruta{
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+    background-color: plum;
+}
+.lista-verduras{
+    line-height: 1;
+    text-align: center;
+    font-weight: 700;
+    background-color: purple;
 }
